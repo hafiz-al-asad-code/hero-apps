@@ -22,12 +22,12 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className='py-3 px-4 bg-gradient-to-r from-[#632ee3] to-[#9f62f2] rounded-[4px] flex items-center gap-2.5'>
+        <a href='https://github.com/hafiz-al-asad-code' className='py-3 px-4 bg-gradient-to-r from-[#632ee3] to-[#9f62f2] rounded-[4px] flex items-center gap-2.5'>
           <figure>
             <img src={githubImg} alt="" />
           </figure>
           <h3 className='font-semibold text-white'>Contribute</h3>
-        </div>
+        </a>
       </div>
     </div >
   );
