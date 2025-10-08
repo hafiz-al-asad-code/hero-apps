@@ -3,14 +3,12 @@ import downloadImg from '../../assets/icon-downloads.png';
 import ratingsImg from '../../assets/icon-ratings.png';
 import reviewImg from '../../assets/icon-review.png';
 
-const AppInformation = ({ appsData, id }) => {
-
-  const singleApp = appsData.find(app => app.id === Number(id));
+const AppInformation = ({ singleApp }) => {
 
   const { image, title, companyName, downloads, ratingAvg, reviews, size } = singleApp;
 
   return (
-    <div className='flex gap-10 border-b border-[#00193133] pb-10 my-20 max-w-[1440px] mx-auto'>
+    <div className='flex gap-10 border-b border-[#00193133] pb-10 mt-20 mb-10'>
       {/* img div */}
       <div>
         <img className='w-[350px] h-full' src={image} alt="" />
