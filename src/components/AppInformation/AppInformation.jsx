@@ -31,16 +31,16 @@ const AppInformation = ({ appsData, id }) => {
           <div>
             <img src={ratingsImg} alt="" />
             <p className='text-[#001931CC] my-2'>Average Ratings</p>
-            <h3 className='text-[40px] font-extrabold text-[#001931]'>{ratingAvg}M</h3>
+            <h3 className='text-[40px] font-extrabold text-[#001931]'>{ratingAvg}</h3>
           </div>
           <div>
             <img src={reviewImg} alt="" />
             <p className='text-[#001931CC] my-2'>Total Reviews</p>
-            <h3 className='text-[40px] font-extrabold text-[#001931]'>{reviews}M</h3>
+            <h3 className='text-[40px] font-extrabold text-[#001931]'>{reviews}K</h3>
           </div>
         </div>
 
-        <button className='py-3.5 px-5 bg-[#00d390] text-xl font-semibold text-white rounded-sm mt-[30px]'>Install Now ({size})</button>
+        <button className='py-3.5 px-5 bg-[#00d390] text-xl font-semibold text-white rounded-sm mt-[30px]'>Install Now ({size}MB)</button>
       </div>
     </div>
   );

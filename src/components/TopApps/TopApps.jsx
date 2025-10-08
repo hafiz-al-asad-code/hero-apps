@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData } from 'react-router';
+import { Link, useLoaderData } from 'react-router';
 import AppCard from '../AppCard/AppCard';
 
 const TopApps = () => {
@@ -15,9 +15,9 @@ const TopApps = () => {
           apps.map(app => <AppCard key={app.id} app={app}></AppCard>)
         }
       </div>
-      <div className='flex justify-center'>
-        <button className='py-[14.5px] px-[39px] bg-gradient-to-r from-[#632ee3] to-[#9f62f2] rounded-[4px] text-white font-semibold mt-10'>Show All</button>
-      </div>
+      <Link to="/allApps" className='flex justify-center'>
+        <button className='py-[14.5px] px-[39px] bg-gradient-to-r from-[#632ee3] to-[#9f62f2] rounded-[4px] text-white font-semibold mt-10 cursor-pointer'>Show All</button>
+      </Link>
     </div>
   );
 };
