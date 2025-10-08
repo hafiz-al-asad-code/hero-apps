@@ -1,0 +1,272 @@
+[
+  {
+    "image": "https://i.ibb.co.com/Lz13hZkg/8025530.jpg",
+    "title": "ChatWave: AI Messaging & Video Chat",
+    "companyName": "Wave Technologies",
+    "id": 1,
+    "description": "ChatWave: AI Messaging & Video Chat is designed to make communication seamless, secure, and intelligent. With support for text, voice, and video messaging, users can stay connected with friends, family, and colleagues anytime, anywhere. AI-assisted smart replies help you respond faster, while end-to-end encryption ensures your conversations remain private and secure.\n\nThe app supports group video calls, making collaboration and social connections effortless. Customizable themes and media sharing options allow you to personalize your experience. Integration with calendars and productivity apps makes ChatWave a perfect tool for both professional and personal communication. Smart notifications, chat backups, and an intuitive interface further enhance convenience and user experience.",
+    "size": 85,
+    "reviews": 24,
+    "ratingAvg": 4.6,
+    "downloads": 1.2,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 7600 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/v6B6nSCx/unnamed.jpg",
+    "title": "FitTrack: Fitness & Health Companion",
+    "companyName": "HealthX Labs",
+    "id": 2,
+    "description": "FitTrack: Fitness & Health Companion is your all-in-one health management app that tracks workouts, sleep patterns, nutrition, and activity levels. Personalized workout plans and diet recommendations help users achieve their fitness goals efficiently. Real-time analytics and integration with wearable devices ensure your progress is accurately measured and visually displayed.\n\nThe app also provides motivational challenges, community engagement, and weekly health tips to keep you inspired. Whether you are a beginner or an athlete, FitTrack offers a structured, data-driven approach to improving your overall health. By combining professional insights with a user-friendly interface, staying fit and active has never been easier or more fun.",
+    "size": 64,
+    "reviews": 18.5,
+    "ratingAvg": 4.4,
+    "downloads": 0.98,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2700 },
+      { "name": "4 star", "count": 5600 },
+      { "name": "5 star", "count": 8200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/DDBDN7n5/taskflow-36557-logo-1643977810-mpbc3.jpg",
+    "title": "TaskFlow: To-Do List & Project Planner",
+    "companyName": "Productive Inc.",
+    "id": 3,
+    "description": "TaskFlow: To-Do List & Project Planner is a productivity app designed to streamline task management for individuals and teams. It offers task prioritization, project boards, deadline reminders, and analytics to keep workflows organized. Smart notifications and real-time collaboration tools help ensure deadlines are met and projects run smoothly.\n\nWith seamless integration into email clients, calendars, and cloud storage, TaskFlow keeps all tasks synchronized across devices. Recurring tasks, custom labels, and progress tracking allow you to manage both short-term and long-term projects effectively. This app is ideal for boosting productivity, reducing stress, and helping users focus on what matters most.",
+    "size": 58,
+    "reviews": 15.7,
+    "ratingAvg": 4.2,
+    "downloads": 0.75,
+    "ratings": [
+      { "name": "1 star", "count": 1300 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 4900 },
+      { "name": "5 star", "count": 5600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Ts3r5ss/images.jpg",
+    "title": "PhotoMint: Pro Photo Editor & Effects",
+    "companyName": "PixelSoft",
+    "id": 4,
+    "description": "PhotoMint: Pro Photo Editor & Effects provides professional-grade tools for editing, enhancing, and creating stunning photos. Advanced filters, AI-powered enhancements, and customizable layers allow users to bring their creative visions to life. The app supports RAW image editing, batch processing, and easy social media sharing.\n\nWith cloud storage integration and collaborative features, PhotoMint is perfect for both beginners and professional photographers. Interactive tutorials and a library of textures and effects enable users to explore creative possibilities and improve their photography skills. Every photo can be perfected with precision and ease, making PhotoMint a complete solution for all your photo editing needs.",
+    "size": 120,
+    "reviews": 42,
+    "ratingAvg": 4.7,
+    "downloads": 3.2,
+    "ratings": [
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 1700 },
+      { "name": "3 star", "count": 3900 },
+      { "name": "4 star", "count": 9600 },
+      { "name": "5 star", "count": 24700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5h5XLCT6/compressed-0a61c4f39627a3cfab1c6670d036f9b1.webp",
+    "title": "EcoMarket: Sustainable Shopping Hub",
+    "companyName": "Greenify Co.",
+    "id": 5,
+    "description": "EcoMarket: Sustainable Shopping Hub is a marketplace dedicated to eco-friendly and ethically sourced products. Users can explore categories like fashion, household goods, electronics, and food, all curated to promote sustainability. Carbon footprint tracking, product reviews, and interactive tools help users make informed decisions and reduce their environmental impact.\n\nThe app also encourages community discussions, educational content, and green living tips. Rewards and guidance motivate users to adopt sustainable practices without compromising convenience. EcoMarket empowers shoppers to make responsible choices while contributing positively to the planet, making conscious consumption simple and enjoyable.",
+    "size": 72,
+    "reviews": 11,
+    "ratingAvg": 4.3,
+    "downloads": 0.64,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 4800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/XfKYnx5M/unnamed.png",
+    "title": "SoundStream: Music & Podcast Player",
+    "companyName": "Melody Media",
+    "id": 6,
+    "description": "SoundStream: Music & Podcast Player offers a vast collection of music and podcasts, providing an immersive audio experience. Users can enjoy millions of tracks, curated playlists, and live radio stations with high-quality streaming. Personalized recommendations and AI-generated playlists help discover new artists and genres effortlessly.\n\nCollaborative playlists, social sharing features, and offline listening enhance convenience and interaction. The app supports mood-based and activity-specific playlists, making it easy to enjoy music anywhere, anytime. SoundStream combines entertainment, discovery, and social connectivity into a seamless audio platform for all users.",
+    "size": 105,
+    "reviews": 88,
+    "ratingAvg": 4.8,
+    "downloads": 5,
+    "ratings": [
+      { "name": "1 star", "count": 2800 },
+      { "name": "2 star", "count": 2300 },
+      { "name": "3 star", "count": 5100 },
+      { "name": "4 star", "count": 15500 },
+      { "name": "5 star", "count": 62300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/60MTMnM0/71g-Mz2wri-JL.png",
+    "title": "FoodMate: Restaurant Finder & Delivery",
+    "companyName": "EatSmart Ltd.",
+    "id": 7,
+    "description": "FoodMate: Restaurant Finder & Delivery simplifies the way you discover, order, and enjoy food. Explore local restaurants, view real-time menus, and filter options based on cuisine, price, distance, or dietary preference. GPS-based recommendations help you find the perfect dining spot nearby.\n\nOrder directly through the app, track your delivery, and earn loyalty rewards. Share reviews, create favorites, and connect with a community of food enthusiasts. FoodMate makes dining out or ordering in convenient, fast, and enjoyable, combining social features with seamless food discovery.",
+    "size": 90,
+    "reviews": 27,
+    "ratingAvg": 4.5,
+    "downloads": 1.5,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 3100 },
+      { "name": "4 star", "count": 7400 },
+      { "name": "5 star", "count": 13900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/KpK2Z6K9/unnamed.webp",
+    "title": "TravelGo: Trip Planner & Booking",
+    "companyName": "SkyNet Travels",
+    "id": 8,
+    "description": "TravelGo: Trip Planner & Booking is your all-in-one travel companion. Book flights, hotels, and experiences with ease while accessing live prices, exclusive deals, and detailed itineraries. Integrated maps, currency converters, and local guides ensure a smooth journey from planning to arrival.\n\nThe app also offers social features like sharing trips, collaborating on group travel, and reviewing destinations. Real-time alerts and travel tools make your trips safer and more organized. TravelGo makes exploring the world convenient, fun, and stress-free, whether traveling solo or with friends and family.",
+    "size": 77,
+    "reviews": 19.5,
+    "ratingAvg": 4.1,
+    "downloads": 0.87,
+    "ratings": [
+      { "name": "1 star", "count": 1300 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 5600 },
+      { "name": "5 star", "count": 6100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nsHh611f/original.png",
+    "title": "StudyNest: Learn & Quiz App",
+    "companyName": "EduCore",
+    "id": 9,
+    "description": "StudyNest: Learn & Quiz App is an educational platform designed to help students and lifelong learners excel. Create personalized learning plans, practice with flashcards and quizzes, and track progress over time. Offline access ensures learning can continue anytime, anywhere.\n\nCollaborative groups, video tutorials, and integration with external resources provide a comprehensive learning experience. Gamification features, badges, and leaderboards motivate learners to stay engaged. StudyNest combines interactive tools, structured content, and performance tracking for an effective and enjoyable study experience.",
+    "size": 65,
+    "reviews": 21,
+    "ratingAvg": 4.6,
+    "downloads": 0.97,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 5800 },
+      { "name": "5 star", "count": 10200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/R4MRFTSN/unnamed-1.png",
+    "title": "NoteEase: Notes & Task Organizer",
+    "companyName": "SmartDev Studio",
+    "id": 10,
+    "description": "NoteEase: Notes & Task Organizer helps users capture ideas, manage tasks, and collaborate efficiently. Take text notes, voice memos, images, and checklists with rich formatting. Automatic syncing across devices ensures that nothing is ever lost.\n\nAdvanced search, tagging, and folder organization make retrieving notes quick and easy. Real-time collaboration allows sharing and co-editing with colleagues or friends. NoteEase is ideal for students, professionals, and creatives who want an organized, reliable, and intuitive note-taking solution.",
+    "size": 50,
+    "reviews": 9.5,
+    "ratingAvg": 4.3,
+    "downloads": 0.46,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 3700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/MksNjhW6/CMf-Yhr70lu8-CEAE.webp",
+    "title": "WeatherCast: Live Weather & Alerts",
+    "companyName": "ClimaSoft",
+    "id": 11,
+    "description": "WeatherCast: Live Weather & Alerts delivers accurate forecasts, severe weather notifications, and interactive radar maps for any location worldwide. Hourly, daily, and weekly predictions help you plan your day, while customizable widgets keep vital information at your fingertips.\n\nReceive alerts for storms, temperature extremes, and other weather events. WeatherCast also visualizes climate trends, making it useful for outdoor enthusiasts, travelers, and professionals. Stay safe, informed, and prepared no matter the weather with WeatherCast.",
+    "size": 45,
+    "reviews": 12,
+    "ratingAvg": 4.2,
+    "downloads": 0.54,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 3700 },
+      { "name": "5 star", "count": 4500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/NgqcnsBq/unnamed-3.png",
+    "title": "HomeChef: Cooking & Recipe App",
+    "companyName": "KitchenVerse",
+    "id": 12,
+    "description": "HomeChef: Cooking & Recipe App makes mastering the art of cooking simple and enjoyable. Access step-by-step video recipes, grocery planning tools, timers, and ingredient lists. Discover new cuisines, save favorite recipes, and share dishes with friends and family.\n\nThe app includes nutritional information, seasonal ingredient suggestions, and meal planning features. HomeChef also supports recipe sharing and community engagement, empowering users to explore culinary creativity while maintaining a healthy diet. It’s perfect for beginners and seasoned cooks alike.",
+    "size": 88,
+    "reviews": 33,
+    "ratingAvg": 4.7,
+    "downloads": 2.1,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 1700 },
+      { "name": "3 star", "count": 3400 },
+      { "name": "4 star", "count": 7800 },
+      { "name": "5 star", "count": 18600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/2Y5xyw3Q/ztlhedcc9cwbuhib1txp.jpg",
+    "title": "MindZen: Meditation & Mindfulness",
+    "companyName": "CalmSphere",
+    "id": 13,
+    "description": "MindZen: Meditation & Mindfulness supports mental well-being by offering guided meditation, breathing exercises, and ambient sounds. Users can track meditation streaks, mood progress, and customize routines to suit their lifestyle. Daily challenges encourage consistent mindfulness practice.\n\nJoin global meditation sessions, explore calming exercises, and reduce stress with personalized recommendations. MindZen is ideal for improving focus, sleep, and emotional balance. Whether beginner or experienced, it integrates mindfulness into everyday life effectively.",
+    "size": 60,
+    "reviews": 26,
+    "ratingAvg": 4.8,
+    "downloads": 1.5,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 5400 },
+      { "name": "5 star", "count": 16500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/wZBxCZ2N/images-1.jpg",
+    "title": "GameBox: Mini Games & Tournaments",
+    "companyName": "PixelArena",
+    "id": 14,
+    "description": "GameBox: Mini Games & Tournaments offers hundreds of games, from puzzles and strategy to action challenges and multiplayer arenas. Leaderboards, achievements, and in-game rewards keep players engaged. Regular updates, new games, and seasonal events make the experience exciting.\n\nSocial features allow competing with friends, sharing progress, and joining communities. GameBox is ideal for casual players and enthusiasts, combining entertainment, competition, and social interaction into a single fun-packed platform.",
+    "size": 130,
+    "reviews": 58,
+    "ratingAvg": 4.5,
+    "downloads": 4.8,
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 7200 },
+      { "name": "4 star", "count": 12900 },
+      { "name": "5 star", "count": 30400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/M53LysWp/1745889689678.jpg",
+    "title": "FinancePro: Budget & Investment Manager",
+    "companyName": "MoneyTech",
+    "id": 15,
+    "description": "FinancePro: Budget & Investment Manager helps users take control of their finances with expense tracking, budgeting, and investment management. Visual analytics, spending reports, and smart notifications provide insight into financial health. Bank integrations and secure encryption keep your data safe.\n\nSet financial goals, categorize expenses, and receive personalized recommendations. Multi-device support ensures financial data is accessible anytime. FinancePro simplifies personal and business finance management, empowering users to make informed decisions, save efficiently, and plan for a secure financial future.",
+    "size": 68,
+    "reviews": 17.5,
+    "ratingAvg": 4.4,
+    "downloads": 0.81,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 8300 }
+    ]
+  }
+]
