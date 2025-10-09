@@ -2,9 +2,9 @@ import React from 'react';
 import downloadImg from '../../assets/icon-downloads.png';
 import ratingsImg from '../../assets/icon-ratings.png';
 
-const InstalledAppsCard = ({ app }) => {
+const InstalledAppsCard = ({ app, handleUninstall }) => {
   // console.log(app);
-  const { image, title, downloads, ratingAvg, size } = app;
+  const { id, image, title, downloads, ratingAvg, size } = app;
 
   return (
     <div className='flex justify-between items-center p-4 bg-white rounded-sm mb-4'>
@@ -31,7 +31,7 @@ const InstalledAppsCard = ({ app }) => {
       </div>
       {/* right div */}
       <div>
-        <button className='text-white font-semibold py-3 px-4 bg-[#00d390] rounded-sm'>Uninstall</button>
+        <button onClick={() => handleUninstall(id)} className='text-white font-semibold py-3 px-4 bg-[#00d390] rounded-sm'>Uninstall</button>
       </div>
     </div>
   );
