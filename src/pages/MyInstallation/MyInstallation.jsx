@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import InstalledAppsCard from '../../components/InstalledAppsCard/InstalledAppsCard';
 import { getAppFromLS } from '../../utility/LocalStorage';
 import { useLoaderData } from 'react-router';
+import { toast } from 'react-toastify';
 
 const MyInstallation = () => {
   const appsData = useLoaderData();
@@ -17,6 +18,9 @@ const MyInstallation = () => {
     setFilteredApps(updatedInstalledApps);
     const updatedInstalledAppsJson = JSON.stringify(updatedInstalledApps);
     localStorage.setItem('installed', updatedInstalledAppsJson);
+
+    const uninstalledApp = appsData.find(app => app.id === id);
+    toast.error(`${uninstalledApp.title} Uninstalled from your Device`);
   }
 
   return (

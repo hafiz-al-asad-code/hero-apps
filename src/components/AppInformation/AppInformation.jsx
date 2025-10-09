@@ -3,6 +3,7 @@ import downloadImg from '../../assets/icon-downloads.png';
 import ratingsImg from '../../assets/icon-ratings.png';
 import reviewImg from '../../assets/icon-review.png';
 import { addAppToLS, getAppFromLS } from '../../utility/LocalStorage';
+import { toast } from 'react-toastify';
 
 const AppInformation = ({ singleApp }) => {
 
@@ -13,7 +14,7 @@ const AppInformation = ({ singleApp }) => {
   const handleLocalStorage = (id) => {
     addAppToLS(id);
     setDisabled(true);
-    alert('save to LS');
+    toast.success(`Yahoo !! ${title} Installed Successfully`);
   }
 
   useEffect(() => {
