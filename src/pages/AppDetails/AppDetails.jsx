@@ -12,7 +12,7 @@ const AppDetails = () => {
 
   const singleApp = appsData.find(app => app.id === Number(id));
 
-  console.log(singleApp);
+  // console.log(singleApp);
 
   return (
     singleApp ?
