@@ -3,7 +3,7 @@ import downloadImg from '../../assets/icon-downloads.png';
 import ratingsImg from '../../assets/icon-ratings.png';
 
 const InstalledAppsCard = ({ app, handleUninstall }) => {
-  // console.log(app);
+
   const { id, image, title, downloads, ratingAvg, size } = app;
 
   return (

@@ -34,7 +34,7 @@ const AppInformation = ({ singleApp }) => {
       <div>
         <div className='border-b border-[#00193133] pb-[29.5px]'>
           <h1 className='text-[32px] font-bold'>{title}</h1>
-          <p className='text-xl font-bold'>Developed by {companyName}</p>
+          <p className='text-xl text-[#627382]'>Developed by <span className='font-semibold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>{companyName}</span></p>
         </div>
 
         <div className='flex gap-[100px] mt-[30.5px] my-2]'>

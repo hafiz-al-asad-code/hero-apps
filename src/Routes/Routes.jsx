@@ -5,13 +5,11 @@ import AppDetails from "../pages/AppDetails/AppDetails";
 import AllApps from "../pages/AllApps/AllApps";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import MyInstallation from "../pages/MyInstallation/MyInstallation";
-import { Suspense } from "react";
 
 export const router = createBrowserRouter([
   {
     path: '/',
     Component: Root,
-    // errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         index: true,

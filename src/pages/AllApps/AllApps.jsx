@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useLoaderData } from 'react-router';
 import AppCard from '../../components/AppCard/AppCard';
 import searchImg from '../../assets/search.png';
-import AppNotFound from '../../components/AppNotFound/AppNotFound';
+import SearchedAppNotFound from '../../components/SearchedAppNotFound/SearchedAppNotFound';
 import logoImg from '../../assets/logo.png';
 
 const AllApps = () => {
@@ -27,13 +27,13 @@ const AllApps = () => {
 
   return (
     <div>
-      <div className={`max-w-[1440px] mx-auto my-20 ${filteredApps.length === 0 && "hidden"}`}>
+      <div className={"max-w-[1440px] mx-auto my-20"}>
         <h1 className='text-5xl font-bold text-center'>Our All Applications</h1>
-        <p className='text-xl mt-4 mb-10 text-center'>Explore All Apps on the Market developed by us. We code for Millions</p>
+        <p className='text-xl mt-4 mb-10 text-center text-[#627382]'>Explore All Apps on the Market developed by us. We code for Millions</p>
         <div className='flex justify-between mb-4'>
           <h3 className='text-2xl font-semibold'>({filteredApps.length}) Apps Found</h3>
           <label htmlFor="" className='relative'>
-            <input value={searchedWords} onChange={handleSearch} type="search" name="" id="" className='border border-[#d2d2d2] py-3 pl-[46px] w-[400px] rounded-sm bg-white' placeholder='search Apps' />
+            <input value={searchedWords} onChange={handleSearch} type="search" name="" id="" className='border border-[#d2d2d2] py-3 pl-[46px] w-[400px] rounded-sm' placeholder='search Apps' />
             <img className='absolute top-[16px] left-[16px]' src={searchImg} alt="" />
           </label>
         </div>
@@ -49,7 +49,7 @@ const AllApps = () => {
             }
           </div>
           :
-          <AppNotFound setFilteredApps={setFilteredApps} appsData={appsData} setSearchedWords={setSearchedWords}></AppNotFound>
+          <SearchedAppNotFound setFilteredApps={setFilteredApps} appsData={appsData} setSearchedWords={setSearchedWords}></SearchedAppNotFound>
       }
     </div>
   );
