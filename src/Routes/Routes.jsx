@@ -17,9 +17,7 @@ export const router = createBrowserRouter([
         index: true,
         path: '/',
         loader: () => fetch('/appsData.json'),
-        element: <Suspense fallback={<p>Loading...</p>}>
-          <Home></Home>
-        </Suspense>
+        Component: Home
       },
       {
         path: 'appDetails/:id',
