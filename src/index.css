@@ -4,3 +4,7 @@
 body {
   background-color: #f5f5f5;
 }
+
+.nav-bar-links a.active {
+  @apply bg-gradient-to-r from-[#632ee3] to-[#9f62f2] bg-clip-text text-transparent font-semibold underline decoration-[#9f62f2] underline-offset-4;
+}
