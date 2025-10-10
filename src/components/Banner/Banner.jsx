@@ -13,14 +13,14 @@ const Banner = () => {
 
       <div className='flex justify-center items-center gap-4 mb-10'>
         <a href="https://play.google.com/store/games?hl=en" target='_blank'>
-          <button className='py-3 px-6 flex items-center gap-2.5 rounded-[4px] border border-[#d2d2d2] cursor-pointer'>
+          <button className='py-3 px-6 flex items-center gap-2.5 rounded-[4px] border border-[#d2d2d2] cursor-pointer shadow-sm'>
             <img className='inline-flex' src={googlePlayImg} alt="" />
             <p className='text-xl font-semibold'>Google Play</p>
           </button>
         </a>
 
         <a href="https://www.apple.com/app-store/" target='_blank'>
-          <button className='py-3 px-6 flex items-center gap-2.5 rounded-[4px] border border-[#d2d2d2] cursor-pointer'>
+          <button className='py-3 px-6 flex items-center gap-2.5 rounded-[4px] border border-[#d2d2d2] cursor-pointer shadow-sm'>
             <img src={appStoreImg} alt="" />
             <p className='text-xl font-semibold'>App Store</p>
           </button>

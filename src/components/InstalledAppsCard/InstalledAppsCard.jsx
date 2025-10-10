@@ -31,7 +31,7 @@ const InstalledAppsCard = ({ app, handleUninstall }) => {
       </div>
       {/* right div */}
       <div>
-        <button onClick={() => handleUninstall(id)} className='text-white font-semibold py-3 px-4 bg-[#00d390] rounded-sm'>Uninstall</button>
+        <button onClick={() => handleUninstall(id)} className='text-white font-semibold py-3 px-4 bg-[#00d390] rounded-sm cursor-pointer'>Uninstall</button>
       </div>
     </div>
   );

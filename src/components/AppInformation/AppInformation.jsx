@@ -28,7 +28,7 @@ const AppInformation = ({ singleApp }) => {
     <div className='flex gap-10 border-b border-[#00193133] pb-10 mt-20 mb-10'>
       {/* img div */}
       <div>
-        <img className='w-[350px] h-full' src={image} alt="" />
+        <img className='w-[350px] h-full shadow-sm' src={image} alt="" />
       </div>
       {/* information div */}
       <div>

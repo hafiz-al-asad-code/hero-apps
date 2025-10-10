@@ -8,7 +8,6 @@ import logoImg from '../assets/logo.png';
 const Root = () => {
 
   const navigation = useNavigation();
-  console.log(navigation.state);
   const isLoading = navigation.state === "loading";
 
   return (

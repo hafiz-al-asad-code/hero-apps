@@ -8,7 +8,7 @@ const AppCard = ({ app }) => {
   const { id, image, title, downloads, ratingAvg } = app;
 
   return (
-    <Link to={`/appDetails/${id}`} className='p-4 bg-white rounded-[4px] shadow-lg '>
+    <Link to={`/appDetails/${id}`} className='p-4 bg-white rounded-[4px] shadow-lg hover:scale-105'>
       <div>
         <img className='w-full h-[285px]' src={image} alt="" />
       </div>
