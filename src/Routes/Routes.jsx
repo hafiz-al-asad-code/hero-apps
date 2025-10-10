@@ -5,6 +5,7 @@ import AppDetails from "../pages/AppDetails/AppDetails";
 import AllApps from "../pages/AllApps/AllApps";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import MyInstallation from "../pages/MyInstallation/MyInstallation";
+import { Suspense } from "react";
 
 export const router = createBrowserRouter([
   {
@@ -16,7 +17,9 @@ export const router = createBrowserRouter([
         index: true,
         path: '/',
         loader: () => fetch('/appsData.json'),
-        Component: Home
+        element: <Suspense fallback={<p>Loading...</p>}>
+          <Home></Home>
+        </Suspense>
       },
       {
         path: 'appDetails/:id',

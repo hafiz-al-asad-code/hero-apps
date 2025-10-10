@@ -3,25 +3,29 @@ import { useLoaderData } from 'react-router';
 import AppCard from '../../components/AppCard/AppCard';
 import searchImg from '../../assets/search.png';
 import AppNotFound from '../../components/AppNotFound/AppNotFound';
+import logoImg from '../../assets/logo.png';
 
 const AllApps = () => {
   const appsData = useLoaderData();
 
   const [filteredApps, setFilteredApps] = useState(appsData);
+  const [isSearching, setIsSearching] = useState(false);
 
   const handleSearch = (e) => {
     const inputValue = e.target.value.toLowerCase().trim();
-    console.log(inputValue);
+    setIsSearching(true);
 
-    const searchedApps = appsData.filter(app => app.title.toLowerCase().includes(inputValue));
-    console.log(searchedApps);
+    setTimeout(() => {
+      const searchedApps = appsData.filter(app => app.title.toLowerCase().includes(inputValue));
 
-    setFilteredApps(searchedApps);
+      setFilteredApps(searchedApps);
+      setIsSearching(false);
+    }, 300)
   }
 
   return (
-    filteredApps.length ?
-      (<div className='max-w-[1440px] mx-auto my-20'>
+    <div>
+      <div className={`max-w-[1440px] mx-auto my-20 ${filteredApps.length === 0 && "hidden"}`}>
         <h1 className='text-5xl font-bold text-center'>Our All Applications</h1>
         <p className='text-xl mt-4 mb-10 text-center'>Explore All Apps on the Market developed by us. We code for Millions</p>
         <div className='flex justify-between mb-4'>
@@ -31,14 +35,21 @@ const AllApps = () => {
             <img className='absolute top-[16px] left-[16px]' src={searchImg} alt="" />
           </label>
         </div>
-        <div className='grid grid-cols-4 gap-4'>
-          {
-            filteredApps.map(app => <AppCard key={app.id} app={app}></AppCard>)
-          }
-        </div>
-      </div>)
-      :
-      (<AppNotFound setFilteredApps={setFilteredApps} appsData={appsData}></AppNotFound>)
+      </div>
+
+      {isSearching ?
+        <div className='text-5xl font-bold opacity-50 text-center h-[200px]'>L<img className='animate-spin w-[80px] inline-block mx-5' src={logoImg} alt="" />ading</div>
+        :
+        filteredApps.length ?
+          <div className='grid grid-cols-4 gap-4 max-w-[1440px] mx-auto'>
+            {
+              filteredApps.map(app => <AppCard key={app.id} app={app}></AppCard>)
+            }
+          </div>
+          :
+          <AppNotFound setFilteredApps={setFilteredApps} appsData={appsData}></AppNotFound>
+      }
+    </div>
   );
 };
 
